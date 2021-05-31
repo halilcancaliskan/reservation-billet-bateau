@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Formulaire d'inscription</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body style="background-color: #999999;">
+	
+	<div class="limiter">
+		<div class="container-login100">
+
+			<div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
+				<form action = "Inscription.php" method ="post" class="login100-form validate-form">
+					<span class="login100-form-title p-b-59">
+						S'enregistrer</span>
+						
+					<div class="wrap-input100 validate-input" data-validate="Nom de famille requis">
+						
+						<input class="input100" id ="lastname" type="text" name="lastname" placeholder="Nom de famille" style="margin-bottom: 10px; margin-top: 10px;" validate-input>
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate="Prénom requis">
+						
+						<input class="input100" type="text" name="firstname" placeholder="Prénom" style="margin-bottom: 10px; margin-top: 10px;">
+						<span class="focus-input100"></span>
+					</div>
+					
+
+					<div class="wrap-input100 validate-input" data-validate = "Email requis: ex@abc.xyz">
+						
+						<input class="input100" id ="email" type="text" name="email" placeholder="Adresse e-mail" style="margin-bottom: 10px; margin-top: 10px;">
+						<span class="focus-input100"></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate = "Code Postal requis">
+						
+						<input class="input100" id="postalcode" type="text" name="postalcode" placeholder="Code postale" style="margin-bottom: 10px; margin-top: 10px;">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Ville requise" >
+						
+						<input class="input100" id ="city" type="text" name="city" placeholder="Ville" style="margin-bottom: 10px; margin-top: 10px;">
+					
+						<span class="focus-input100"></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate = "Adresse requise">
+						
+						<input class="input100" id="adress" type="text" name="adress" placeholder="Adresse" style="margin-bottom: 10px; margin-top: 10px;">
+						<span class="focus-input100"></span>
+					</div>
+					
+
+					<div class="wrap-input100 validate-input" data-validate="Identifiant requis" style="margin-bottom: 10px; margin-top: 10px;">
+						
+						<input class="input100" id="username" type="text" name="username" placeholder="Identifiant de connexion">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Mot de Passe requis">
+						
+						<input class="input100" id="password" type="password" name="password" placeholder="Mot de passe" style="margin-bottom: 35px; margin-top: 10px;">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button type ="submit" value="ok" class="login100-form-btn">
+							
+								Enregistrer
+							</button>
+						</div>
+</div>
+
+<div class="text-center w-full p-t-115">
+						<span class="txt1">
+							Déjà un compte ?
+						</span>
+
+						<a class="txt1 bo1 hov1" href="index.html" onsubmit="myFunction()">
+							Revenir à la page d'accueil						
+						</a>
+					  </div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main2.js"></script>
+
+</body>
+</html>
